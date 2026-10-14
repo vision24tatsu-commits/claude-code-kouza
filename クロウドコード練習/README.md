@@ -5,9 +5,14 @@
 ## 準備（最初に1回だけ）
 
 1. GitHub のアカウントを作る：https://github.com/signup
-2. この練習用リポジトリを自分のアカウントにコピーする（講師の指示に従ってください）
+2. 自分用のコピーを作る
+   - https://github.com/vision24tatsu-commits/claude-code-kouza を開く
+   - 緑の「Use this template」→「Create a new repository」を押す
+   - Repository name に好きな名前（例：`my-kouza`）を入れて「Create repository」を押す
 3. https://claude.ai/code を開いて、Claude のアカウントでログインする
-4. 画面の案内に従って GitHub と連携し、コピーしたリポジトリを選ぶ
+4. 画面の案内に従って GitHub と連携し、2で作ったコピーを選ぶ
+   - 初めてのときは「Claude の GitHub アプリをインストールしますか？」という画面が出ます
+   - インストールするとき、使うリポジトリを聞かれたら、2で作ったコピーを選んでください
 
 ## このフォルダの中身
 
@@ -50,6 +55,8 @@
 > ここまでの変更をコミットしてプッシュして
 
 GitHub のページを開いて、ファイルが本当に変わっているか確かめましょう。
+
+**変更が見えないときは：** Claude は、`main` ではなく `claude/` で始まる作業用のブランチにプッシュします。GitHub のページの左上にある「main」と書かれたボタンを押して、`claude/` で始まるブランチに切り替えると、変更が見られます。
 
 ## うまく頼むコツ
 
